@@ -1,0 +1,29 @@
+﻿[
+  {
+    "Id":  1, 
+    "Name": "Pallas",
+    "Description": "(2) Pallas ist mit einem mittleren Durchmesser von 546 km der größte Asteroid und nach Ceres der zweitgrößte Körper im Asteroiden-Hauptgürtel, wird jedoch an Masse noch von Vesta übertroffen. Sie hat annähernd Kugelgestalt, ist durch Kollisionen jedoch etwas deformiert.",
+    "Discovery": "28. März 1802 von Heinrich Wilhelm Olbers",
+    "Type": "Asteroid",
+    "Price": "265000000",
+    "ImgUrl": "https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2011/astronomerss.jpg"
+  },
+  {
+    "Id": 2,
+    "Name": "Juno",
+    "Description": "(3) Juno ist ein Asteroid des Asteroiden-Hauptgürtels. Er wurde am 1. September 1804 von Karl Ludwig Harding als dritter Asteroid entdeckt und nach Juno, der höchsten römischen Göttin, benannt. Juno wurde nach ihrer Entdeckung ebenso wie die zuvor entdeckten Asteroiden (1) Ceres und (2) Pallas zunächst als vollwertiger Planet eingestuft. Erst nach 1847 wurde zwischen Asteroiden und Planeten unterschieden. Ihre Bahn wurde in den 1810er Jahren in Göttingen unter Leitung von Carl Friedrich Gauß von Friedrich Ludwig Wachter berechnet.",
+    "Discovery": "01. September 1804 von Karl Ludwig Harding",
+    "Type": "Asteroid",
+    "Price": "170000000",
+    "ImgUrl": "http://www.astronoo.com/images/asteroides/asteroide-junon.jpg"
+  },
+  {
+    "Id": 3,
+    "Name": "Vesta",
+    "Description": "(4) Vesta ist mit zirka 516 km mittlerem Durchmesser nach Pallas der zweitgrößte, aber mit etwa 2,6·1020 kg der schwerste Asteroid im Asteroiden-Hauptgürtel, in dem er an Masse nur vom Zwergplaneten Ceres übertroffen wird. Vesta ist – wie Ceres und vermutlich auch Pallas – ein Protoplanet aus der Entstehungszeit des Sonnensystems.[3][4][5] Sie hat einen relativ großen Metall-Anteil, ist etwas oval (möglicherweise durch eine Kollision in der Frühzeit) und ist der einzige Asteroid, der bisweilen freiäugig sichtbar wird.",
+    "Discovery": "29. März 1807 von Heinrich Wilhelm Olbers",
+    "Type": "Asteroid",
+    "Price": "300000000",
+    "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Vesta_Full-Frame.jpg"
+  }
+]

@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "../_LayoutPage.cshtml";
+}
+@using SpaceStorium.Models
+@model List<Product>
+
+
+
+@foreach (Product product in Model)
+{
+    <div class="row item" style="margin-top: 15px;" onclick="window.location.href = 'Detail/' + @product.Id">
+
+        <div class="col-md-2">
+            <img src="@product.ImgUrl" alt="@product.Name" class="img-rounded img-responsive">
+        </div>
+        <div class="col-md-8">
+            <h3 class="font-weight-bold">@product.Name, @product.Type</h3>
+            <br/><h5>@product.Discovery</h5>
+        </div>
+        <div class="col-md-2">
+            <h5 class="col-md-2 font-weight-bold" style="color: #A7263B;">@product.Price</h5>
+        </div>
+
+    </div>
+    <hr style="width: 100%;"/>
+}

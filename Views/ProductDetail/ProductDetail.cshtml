@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "../_LayoutPage.cshtml";
+}
+@using SpaceStorium.Models
+
+@model Product
+    
+<button type="button" name="Back" onclick="window.location.href = '/'" class="btn btn-primary" style="margin-bottom: 30px;"> < Back</button>
+<div class="row">
+    <div class="col-md-2">
+        <img src="@Model.ImgUrl" alt="@Model.Name" class="img-rounded img-responsive">
+    </div>
+    <div class="col-md-8">
+        <h3 class="font-weight-bold">@Model.Name, @Model.Type</h3>
+        <br/>
+        <h5>@Model.Discovery</h5>
+        <br/>
+        <h4>@Model.Description</h4>
+    </div>
+    <div class="col-md-2">
+        <h5 class="col-md-2 font-weight-bold" style="color: #A7263B;">@Model.Price</h5>
+    </div>
+</div>
